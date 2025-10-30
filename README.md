@@ -27,3 +27,6 @@ It shows all **current orders**, **orders being cooked**, and **orders that are 
 
 ---
 
+## Live Link
+
+[https://taxi-kitchen-room-web.netlify.app/](https://taxi-kitchen-room-web.netlify.app/)
