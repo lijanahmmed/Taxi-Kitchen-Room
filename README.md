@@ -1,16 +1,29 @@
-# React + Vite
+# Taxi Kitchen Room
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The **Taxi Kitchen Room** is a responsive web application built with React that helps kitchen staff manage food orders efficiently.  
+It shows all **current orders**, **orders being cooked**, and **orders that are ready** — making it easy to keep track of every meal in progress.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- **Show Current Orders:** View all new and active food orders.  
+- **Cooking Status:** See which orders are currently being cooked.  
+- **Order Ready:** Display orders that are ready to serve or deliver.  
+- **Toast Notifications:** Instant popups for order updates or status changes.  
+- **Responsive Design:** Works smoothly on mobile, tablet, and desktop.  
+- **Clean Interface:** Simple, fast, and easy-to-use design for kitchen staff.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack (Simple)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js** → Builds the user interface  
+- **JavaScript** → Adds logic and functionality  
+- **Tailwind CSS** → Provides modern, responsive design  
+- **DaisyUI** → Gives ready-made UI components  
+- **React Icons** → Adds icons for better visuals  
+- **React Toastify** → Shows toast messages and alerts  
+
+---
+
