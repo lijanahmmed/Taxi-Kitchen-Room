@@ -7,30 +7,23 @@ import { toast } from "react-toastify";
 
 const OrderContainer = ({ promise }) => {
   const data = use(promise);
-  //   console.log(orders);
 
   const [orders, setOrders] = useState(data);
-  
 
   const [cookingItems, setCookingItems] = useState([]);
 
   const [readyItems, setReadyItems] = useState([]);
 
   const handleOrder = (order) => {
-    // age check koro cooking e order ache kina
     const isExist = cookingItems.find((item) => item.id == order.id);
 
     if (isExist) {
-      //   alert("Allready Cooking!!");
       toast.error("Order allready on Processing");
       return;
     }
 
-    // Cooking Items er vitore click koraa order k dhukabo.
-
     const newCookingItems = [...cookingItems, order];
     setCookingItems(newCookingItems);
-
   };
 
   const handleCooking = (order) => {
