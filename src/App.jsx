@@ -22,7 +22,7 @@ const App = () => {
           <OrderContainer promise={ordersPromise}></OrderContainer>
         </Suspense>
       </section>
-      
+
       <ToastContainer
         position="bottom-right"
         autoClose={5000}
