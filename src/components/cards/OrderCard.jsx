@@ -1,8 +1,6 @@
 import { UtensilsCrossed } from "lucide-react";
 
 const OrderCard = ({ order, handleOrder }) => {
-  // Static data (mock order)
-  //   console.log(order);
 
   return (
     <div
